@@ -8,5 +8,4 @@ public class HelloJava8 {
 		System.out.println("Empty Strings: " + count);
 
 	}
-	
 }
