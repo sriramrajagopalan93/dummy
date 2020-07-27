@@ -7,4 +7,5 @@ public class HelloJava8 {
 		long count = sampleList.stream().filter(string -> string.isEmpty()).count();
 		System.out.println("Empty Strings: " + count);
 	}
+	
 }
