@@ -6,6 +6,5 @@ public class HelloJava8 {
 		List<String> sampleList = Arrays.asList("abc", "", "bc", "efg", "abcd", "", "jkl");
 		long count = sampleList.stream().filter(string -> string.isEmpty()).count();
 		System.out.println("Empty Strings: " + count);
-
 	}
 }
